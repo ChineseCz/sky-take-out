@@ -28,6 +28,7 @@ public interface UserMapper {
      * 创建新用户
      * @param user
      */
+
     @AutoFill(OperationType.INSERT)
     void insert(User user);
 
